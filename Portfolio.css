@@ -19,21 +19,52 @@ body{
 {
     display:flex;
     flex-direction:row;
-    font-size:inherit;
-    margin-left:35rem;
+    font-size:9rem;
+    margin-left:101rem;
     margin-top:1rem;
 }
-#aboutbar span{
+#aboutbar .ids1{
     font-family: 'Oswald', sans-serif;
-    margin:1rem 2rem 2rem 2rem;
+    margin:1rem 6.5rem 2rem 2rem;
     color:whitesmoke ;
     transition:font-size 5ms;
-    font-size:2rem;
+    font-size: 3.4rem;
    
 }
-
+#aboutbar .ids2{
+    font-family: 'Oswald', sans-serif;
+    margin:1rem 6.5rem 2rem 2rem;
+    color:whitesmoke ;
+    transition:font-size 5ms;
+    font-size: 3.4rem;
+   
+}
+#aboutbar .ids3{
+    font-family: 'Oswald', sans-serif;
+    margin:1rem 6.5rem 2rem 2rem;
+    color:whitesmoke ;
+    transition:font-size 5ms;
+    font-size: 3.4rem;
+   
+}
+#aboutbar .ids4{
+    font-family: 'Oswald', sans-serif;
+    margin:1rem 6.5rem 2rem 2rem;
+    color:whitesmoke ;
+    transition:font-size 5ms;
+    font-size: 3.4rem;
+   
+}
+#aboutbar .ids5{
+    font-family: 'Oswald', sans-serif;
+    margin:1rem 6.5rem 2rem 2rem;
+    color:whitesmoke ;
+    transition:font-size 5ms;
+    font-size: 3.4rem;
+   
+}
 #BiggerAbout span{
-    font-size:6rem;
+    font-size:8rem;
     color:white;
 }
 #element
@@ -46,7 +77,7 @@ body{
     margin:5rem 0 0 7rem;
 }
 #aboutbar span:hover{
-    font-size:2.2rem; 
+    font-size:3.6rem; 
     font-weight:bold;
     cursor: pointer;
 }
@@ -54,31 +85,33 @@ body{
     display:flex;
    position:sticky;
    top:0;
-    height:7rem;
+    height:10rem;
     width:100%;
     background-color: rgb(35, 3, 65);
 }
 #headerpart{
     margin:1.5rem 2rem 0 2rem;
     color:white;
-    font-size:2.5rem;
+    /* width:2rem; */
+    font-size:2.rem;
 }
 .secondsection{
 display:flex;
 flex-direction:row;
 justify-content:space-around;
-height:95rem;
+height:100rem;
 background-color:rgb(68, 7, 129);
 overflow:hidden;
 }
 .secondsection button{
     margin:1rem;
-    height:4rem;
-    width:10rem;
+    height:8rem;
+    width:16rem;
     outline:none;
+    font-size:2.5rem;
     color:white;
     transition:all 5ms;
-    border:1px solid white;
+    border:0.1rem solid white;
     background-color:rgb(2, 2, 94);
 }
 .secondsection button a{
@@ -93,20 +126,110 @@ overflow:hidden;
     border:1px solid rgb(2, 2, 94);
 }
 section img{
-    margin:2rem;
-    height:45rem;
-    border-radius:0.6rem;
+    margin:5rem;
+    height:85rem;
+    border-radius:1rem;
 }
-@media screen and (max-width:890px){
-    body{
-        zoom:0;
-    }
-    html{
-        font-size:5px;
-    }
-    #aboutbar{
-        flex-direction:column;
-        display:none;
-    }
+@media (resolution:0.375dppx)  {
+    /* 25% Zoom Level */
     
+html{
+    font-size:22.5px;
+  }
 }
+@media (resolution:0.5dppx)  {
+    /* 33% Zoom Level */
+    html{
+      font-size:17.1px;
+    }
+  }
+  @media (resolution:0.75dppx)  {
+    /* 50% Zoom Level */
+    html{
+      font-size:11.4px;
+    }
+  }
+  @media (resolution:1dppx)  {
+    /* 67% Zoom Level */
+    html{
+      font-size:8.56px;
+    }
+  }
+  @media (resolution:1.125dppx)  {
+    /*75% Zoom Level */
+    html{
+      font-size:7.6px;
+    }
+  }
+  @media (resolution:1.20dppx)  {
+    /* 80% Zoom Level */
+    html{
+      font-size:7.1px;
+    }
+  }
+  @media (resolution:1.3499999046325684dppx)  {
+    /* 90% Zoom Level */
+    html{
+      font-size:6.33px;
+    }
+  }
+  @media (resolution:1.5dppx)  {
+    /* 100% Zoom Level */
+    html{
+      font-size:5.7px;
+    }
+  }
+  @media (resolution:1.6500000953674316dppx)  {
+    /* 110% Zoom Level */
+    html{
+      font-size:5.15px;
+    }
+  }
+  @media (resolution:1.875dppx)  {
+    /* 125% Zoom Level */
+    html{
+      font-size:4.53px;
+    }
+  }
+  @media (resolution:2.25dppx)  {
+    /* 150% Zoom Level */
+    html{
+      font-size:3.77px;
+    }
+  }
+  @media (resolution:2.625dppx)  {
+    /* 175% Zoom Level */
+    html{
+      font-size:3.24px;
+    }
+  }
+  @media (resolution:3dppx)  {
+    /* 200% Zoom Level */
+    html{
+      font-size:2.83px;
+    }
+  }
+  @media (resolution:3.75dppx)  {
+    /* 250% Zoom Level */
+    html{
+      font-size:2.268px;
+    }
+  }
+  @media (resolution:4.5dppx)  {
+    /* 300% Zoom Level */
+    html{
+      font-size:1.88px;
+    }
+  }
+  @media (resolution:6dppx)  {
+    /* 400% Zoom Level */
+    html{
+      font-size:1.416px;
+    }
+  }
+  @media (resolution:7.5dppx)  {
+    /* 500% Zoom Level */
+    html{
+      font-size:1.134px;
+    }
+  }

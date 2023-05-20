@@ -2,65 +2,68 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0  ,touch-action: manipulation,  user-scalable=no"> -->
-    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width, height=device-height, target-densitydpi=device-dpi">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+  <!-- <meta name="viewport"
+    content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=de/vice-width, height=device-height, target-densitydpi=device-dpi"> -->
 
-    <title>Portfolio Website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,900&family=Oswald:wght@500&family=Roboto+Slab:wght@300&family=Sofia+Sans+Semi+Condensed&display=swap"
-        rel="stylesheet">
-        <link rel="stylesheet" href="Portfolio.css">
+  <title>Portfolio Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,900&family=Oswald:wght@500&family=Roboto+Slab:wght@300&family=Sofia+Sans+Semi+Condensed&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="Portfolio.css">
 </head>
 
 <body>
 
-    <section class="Heading">
-      <section id="headerpart">
-        <h1>Sekhar's Portfolio</h1>
-      </section>
-      <section id="aboutbar">
-       <span class="ids">Home</span>
-       <span class="ids">About Me</span>
-       <span class="ids">Services</span>
-       <span class="ids">Projects</span>
-       <span class="ids">Contact Me </span>
-
-      </section>
+  <section class="Heading">
+    <section id="headerpart">
+      <h1>Sekhar's Portfolio</h1>
     </section>
+    <section id="aboutbar">
+      <span class="ids1">Home</span>
+      <span class="ids2">About Me</span>
+      <span class="ids3">Services</span>
+      <span class="ids4">Projects</span>
+      <span class="ids5">Contact Me </span>
 
-    <section class="secondsection">
-        <section id="BiggerAbout">
-            <span> Hey</span> <br>
-            <span>I am Sekhar</span><br>
-            <span> I am Passionate  </span> 
-            <br>
-            <span id="element"></span><br><br>
-            <button class="btns"><a href="https://github.com/SomasekharSunkari/PortFolio_Website">Visit Resume</a> </button>
-            <button class="btns">Visit Github</button>
-    
-        </section>
+    </section>
+  </section>
+
+  <section class="secondsection">
+    <section id="BiggerAbout">
+      <span> Hey</span> <br>
+      <span>I am Sekhar</span><br>
+      <span> I am Passionate </span>
+      <br>
+      <span id="element"></span><br><br>
+      <button class="btns"><a href="https://github.com/SomasekharSunkari/PortFolio_Website">Visit Resume</a> </button>
+      <button class="btns">Visit Github</button>
+
+    </section>
 
     <section>
-        <img src="/Other_Source/Cosding_Cartoon_img.jpg" alt="Coding_Images">
-    </section>
-    
+      <img src="/Other_Source/Cosding_Cartoon_img.jpg" alt="Coding_Images">
     </section>
 
-    
+  </section>
 
-    <!-- Load library from the CDN -->
+
+
+  <!-- Load library from the CDN -->
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
   <!-- Setup and start animation! -->
   <script>
     var typed = new Typed('#element', {
-      strings: ['Web Developer...', 'Video Editor...','BlockChain...'],
+      strings: ['Web Developer...', 'Video Editor...', 'BlockChain...'],
       typeSpeed: 50,
     });
+    //var dpr = window.devicePixelRatio || 1;
+    //alert("Device Pixel Ratio: " + dpr);
   </script>
 
 </body>
