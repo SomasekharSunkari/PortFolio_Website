@@ -1,235 +1,291 @@
 html {
-    font-size:10px;
+  font-size: 10px;
 
 }
+
 body{
-   zoom:100%;
-   touch-action: manipulation;
+  background-color:red;
 }
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
 }
-::-webkit-scrollbar {
-    display: none;
-}
-#aboutbar
-{
-    display:flex;
-    flex-direction:row;
-    font-size:9rem;
-    margin-left:101rem;
-    margin-top:1rem;
-}
-#aboutbar .ids1{
-    font-family: 'Oswald', sans-serif;
-    margin:1rem 6.5rem 2rem 2rem;
-    color:whitesmoke ;
-    transition:font-size 5ms;
-    font-size: 3.4rem;
-   
-}
-#aboutbar .ids2{
-    font-family: 'Oswald', sans-serif;
-    margin:1rem 6.5rem 2rem 2rem;
-    color:whitesmoke ;
-    transition:font-size 5ms;
-    font-size: 3.4rem;
-   
-}
-#aboutbar .ids3{
-    font-family: 'Oswald', sans-serif;
-    margin:1rem 6.5rem 2rem 2rem;
-    color:whitesmoke ;
-    transition:font-size 5ms;
-    font-size: 3.4rem;
-   
-}
-#aboutbar .ids4{
-    font-family: 'Oswald', sans-serif;
-    margin:1rem 6.5rem 2rem 2rem;
-    color:whitesmoke ;
-    transition:font-size 5ms;
-    font-size: 3.4rem;
-   
-}
-#aboutbar .ids5{
-    font-family: 'Oswald', sans-serif;
-    margin:1rem 6.5rem 2rem 2rem;
-    color:whitesmoke ;
-    transition:font-size 5ms;
-    font-size: 3.4rem;
-   
-}
-#BiggerAbout span{
-    font-size:8rem;
-    color:white;
-}
-#element
-{
-    color:rgb(5, 1, 9)!important;
-}
-#BiggerAbout{
-    height:20rem;
-    width:50rem;
-    margin:5rem 0 0 7rem;
-}
-#aboutbar span:hover{
-    font-size:3.6rem; 
-    font-weight:bold;
-    cursor: pointer;
-}
-.Heading{
-    display:flex;
-   position:sticky;
-   top:0;
-    height:10rem;
-    width:100%;
-    background-color: rgb(35, 3, 65);
-}
-#headerpart{
-    margin:1.5rem 2rem 0 2rem;
-    color:white;
-    /* width:2rem; */
-    font-size:2.rem;
-}
-.secondsection{
-display:flex;
-flex-direction:row;
-justify-content:space-around;
-height:100rem;
-background-color:rgb(68, 7, 129);
-overflow:hidden;
-}
-.secondsection button{
-    margin:1rem;
-    height:8rem;
-    width:16rem;
-    outline:none;
-    font-size:2.5rem;
-    color:white;
-    transition:all 5ms;
-    border:0.1rem solid white;
-    background-color:rgb(2, 2, 94);
-}
-.secondsection button a{
-    text-decoration:none;
-    color:white;
-}
-.secondsection button:hover {
-    color:rgb(2, 2, 94);
-        transform:scale(1.3,1.3);
 
-    background-color:white;
-    border:1px solid rgb(2, 2, 94);
+::-webkit-scrollbar {
+  display: none;
 }
-section img{
-    margin:5rem;
-    height:85rem;
-    border-radius:1rem;
+
+#aboutbar {
+  /* display: flex;
+  flex-direction: row; */
+  font-size: 9rem;
+  margin-left: 80rem;
+  position: relative;
+  top:-4rem;
+  /* margin-top: 1rem; */
 }
-@media (resolution:0.375dppx)  {
-    /* 25% Zoom Level */
-    
-html{
-    font-size:22.5px;
+
+#aboutbar .ids1 {
+  font-family: 'Oswald', sans-serif;
+  margin: 1rem 6.5rem 2rem 2rem;
+  color: whitesmoke;
+  transition: font-size 5ms;
+  font-size: 3.4rem;
+
+}
+
+#aboutbar .ids2 {
+  font-family: 'Oswald', sans-serif;
+  margin: 1rem 6.5rem 2rem 2rem;
+  color: whitesmoke;
+  transition: font-size 5ms;
+  font-size: 3.4rem;
+
+}
+
+#aboutbar .ids3 {
+  font-family: 'Oswald', sans-serif;
+  margin: 1rem 6.5rem 2rem 2rem;
+  color: whitesmoke;
+  transition: font-size 5ms;
+  font-size: 3.4rem;
+
+}
+
+#aboutbar .ids4 {
+  font-family: 'Oswald', sans-serif;
+  margin: 1rem 6.5rem 2rem 2rem;
+  color: whitesmoke;
+  transition: font-size 5ms;
+  font-size: 3.4rem;
+
+}
+
+#aboutbar .ids5 {
+  font-family: 'Oswald', sans-serif;
+  margin: 1rem 6.5rem 2rem 2rem;
+  color: whitesmoke;
+  transition: font-size 5ms;
+  font-size: 3.4rem;
+
+}
+
+#BiggerAbout span {
+  font-size: 8rem;
+  color: white;
+}
+
+#element {
+  color: rgb(5, 1, 9) !important;
+}
+
+#BiggerAbout {
+  height: 40vh;
+  width: 110vw;
+  margin: 5rem 0 0 27rem;
+}
+
+#aboutbar span:hover {
+  font-size: 3.6rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Heading {
+  display: flex;
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  width:100%;
+  background-color: rgb(35, 3, 65);
+}
+
+#headerpart {
+  margin: 1.5rem 2rem 0 2rem;
+  color: white;
+  /* width:2rem; */
+  font-size: 4rem;
+}
+
+.secondsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height:100vh;
+  width:100vw;
+  background-color: rgb(68, 7, 129);
+  overflow: hidden;
+}
+/* body{
+  /* background-color: rgb(7, 129, 52); */
+  /* width:10vw !important; */
+/* }  */
+.secondsection button {
+  margin: 1rem;
+  height: 8rem;
+  width: 16rem;
+  outline: none;
+  font-size: 2.5rem;
+  color: white;
+  transition: all 5ms;
+  border: 0.1rem solid white;
+  background-color: rgb(2, 2, 94);
+}
+
+.secondsection button a {
+  text-decoration: none;
+  color: white;
+}
+
+.secondsection button:hover {
+  color: rgb(2, 2, 94);
+  transform: scale(1.3, 1.3);
+  cursor: pointer;
+
+  background-color: white;
+  border: 1px solid rgb(2, 2, 94);
+}
+
+section img {
+  margin: 5rem 35rem;
+  height: 85rem;
+  border-radius: 1rem;
+}
+
+@media (resolution:0.375dppx) {
+  /* 25% Zoom Level */
+
+  html {
+    font-size: 22.5px;
   }
 }
-@media (resolution:0.5dppx)  {
-    /* 33% Zoom Level */
-    html{
-      font-size:17.1px;
-    }
+
+@media (resolution:0.5dppx) {
+
+  /* 33% Zoom Level */
+  html {
+    font-size: 17.1px;
   }
-  @media (resolution:0.75dppx)  {
-    /* 50% Zoom Level */
-    html{
-      font-size:11.4px;
-    }
+}
+
+@media (resolution:0.75dppx) {
+
+  /* 50% Zoom Level */
+  html {
+    font-size: 11.4px;
   }
-  @media (resolution:1dppx)  {
-    /* 67% Zoom Level */
-    html{
-      font-size:8.56px;
-    }
+}
+
+@media (resolution:1dppx) {
+
+  /* 67% Zoom Level */
+  html {
+    font-size: 8.5px;
   }
-  @media (resolution:1.125dppx)  {
-    /*75% Zoom Level */
-    html{
-      font-size:7.6px;
-    }
+}
+
+@media (resolution:1.125dppx) {
+
+  /*75% Zoom Level */
+  html {
+    font-size: 7.6px;
   }
-  @media (resolution:1.20dppx)  {
-    /* 80% Zoom Level */
-    html{
-      font-size:7.1px;
-    }
+}
+
+@media (resolution:1.20dppx) {
+
+  /* 80% Zoom Level */
+  html {
+    font-size: 7.1px;
   }
-  @media (resolution:1.3499999046325684dppx)  {
-    /* 90% Zoom Level */
-    html{
-      font-size:6.33px;
-    }
+}
+
+@media (resolution:1.3499999046325684dppx) {
+
+  /* 90% Zoom Level */
+  html {
+    font-size: 6.33px;
   }
-  @media (resolution:1.5dppx)  {
-    /* 100% Zoom Level */
-    html{
-      font-size:5.7px;
-    }
+}
+
+@media (resolution:1.5dppx) {
+
+  /* 100% Zoom Level */
+  html {
+    font-size: 5.7px;
   }
-  @media (resolution:1.6500000953674316dppx)  {
-    /* 110% Zoom Level */
-    html{
-      font-size:5.15px;
-    }
+}
+
+@media (resolution:1.6500000953674316dppx) {
+
+  /* 110% Zoom Level */
+  html {
+    font-size: 5.15px;
   }
-  @media (resolution:1.875dppx)  {
-    /* 125% Zoom Level */
-    html{
-      font-size:4.53px;
-    }
+}
+
+@media (resolution:1.875dppx) {
+
+  /* 125% Zoom Level */
+  html {
+    font-size: 4.53px;
   }
-  @media (resolution:2.25dppx)  {
-    /* 150% Zoom Level */
-    html{
-      font-size:3.77px;
-    }
+}
+
+@media (resolution:2.25dppx) {
+
+  /* 150% Zoom Level */
+  html {
+    font-size: 3.77px;
   }
-  @media (resolution:2.625dppx)  {
-    /* 175% Zoom Level */
-    html{
-      font-size:3.24px;
-    }
+}
+
+@media (resolution:2.625dppx) {
+
+  /* 175% Zoom Level */
+  html {
+    font-size: 3.24px;
   }
-  @media (resolution:3dppx)  {
-    /* 200% Zoom Level */
-    html{
-      font-size:2.83px;
-    }
+}
+
+@media (resolution:3dppx) {
+
+  /* 200% Zoom Level */
+  html {
+    font-size: 2.83px;
   }
-  @media (resolution:3.75dppx)  {
-    /* 250% Zoom Level */
-    html{
-      font-size:2.268px;
-    }
+}
+
+@media (resolution:3.75dppx) {
+
+  /* 250% Zoom Level */
+  html {
+    font-size: 2.268px;
   }
-  @media (resolution:4.5dppx)  {
-    /* 300% Zoom Level */
-    html{
-      font-size:1.88px;
-    }
+}
+
+@media (resolution:4.5dppx) {
+
+  /* 300% Zoom Level */
+  html {
+    font-size: 1.88px;
   }
-  @media (resolution:6dppx)  {
-    /* 400% Zoom Level */
-    html{
-      font-size:1.416px;
-    }
+}
+
+@media (resolution:6dppx) {
+
+  /* 400% Zoom Level */
+  html {
+    font-size: 1.416px;
   }
-  @media (resolution:7.5dppx)  {
-    /* 500% Zoom Level */
-    html{
-      font-size:1.134px;
-    }
+}
+
+@media only screen and  (resolution:7.5dppx) {
+
+  /* 500% Zoom Level */
+  html {
+    font-size: 1.134px;
   }
+}
